@@ -1,0 +1,38 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "API which gets the input from slack users and response ",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atadevli/slack-bot.git"
+  },
+  "author": "Ata Devli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atadevli/slack-bot/issues"
+  },
+  "homepage": "https://github.com/atadevli/slack-bot#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "qs": "^6.10.1",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.1"
+  }
+}
