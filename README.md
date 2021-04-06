@@ -30,7 +30,7 @@ The points what user gets will be multiplying of km by 1.5 (For Example 4 km bik
 
 This command will publish the leaderboard to the specific slack channel. Leader board contains top 3 users due to their total points which have been gained within last one hour.
 
-###Configs
+### Configs
 
 For environment taking I did not define any method. It is up to your preferences. You can use your IDE env variable definition tools for local development or either you can use `dotenv` npm package for managing them or you can assign AWS IAM secrets for it. It is up to you.
 
