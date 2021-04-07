@@ -1,6 +1,12 @@
 # slack-bot-application
 
  This API is an example for creating interactivity with slack users based on their sport activities. API takes `running` or `biking` activities and supply a Leader Board due to activities which have been made within the last one hour. For each activity the users gain points. 
+ 
+ The API have 4 endpoints:
+ 1. GET /health = for health check
+ 2. POST /running = for running activity in Slack Bot
+ 3. POST /biking = for biking activity in Slack Bot
+ 4. POST /leaderboard = for getting leaderboard in Slack Bot
 
 ### Running Activity Slack Command
 
